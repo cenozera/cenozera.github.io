@@ -218,4 +218,30 @@ window.parent.postMessage("resize", "*");
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+<script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "e7ab3daaf02de400c02a38a4c1c8149c",
+    "excludeDomains": [
+        "cenozera.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script> 
 </html>
