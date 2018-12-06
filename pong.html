@@ -192,7 +192,8 @@
   <script type="text/x-template" id="grid">
   	<div class="grid">
     	<transition-group name="pop">
-			  <div class="color" v-for="(color, index) in colors" v-bind:key="{index}"><img class="color" v-bind:src="color.hex"></div>
+			  <div class="color" v-for="(color, index) in colors" v-bind:key="{index}">
+			  <img class="color" v-bind:src="color.hex"></div>
 
       </transition-group>
     </div>

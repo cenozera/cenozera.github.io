@@ -19,33 +19,33 @@ var app = new Vue({
     addMoreColors: function() {
       // Simple dummy function to add more data.
       if(this.colors.length<=11)
-      this.colors = this.colors.concat([{ hex: "https://games-live.s3.amazonaws.com/game-img/5559.png"},
-        { hex: "http://o2tvseries.com/res/tv_serials/61.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/62.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/63.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/64.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/65.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/66.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/67.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/68.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/69.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/70.jpg" }]);
+      this.colors = this.colors.concat([{ hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7515.png"},
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7503.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7499.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7519.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7507.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7476.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7473.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7455.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7439.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7466.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7451.png" }]);
     }
   },
   data: function() {
     return {
       colors: [
-        { hex: "http://o2tvseries.com/res/tv_serials/560.jpg"},
-        { hex: "http://o2tvseries.com/res/tv_serials/561.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/562.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/563.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/564.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/565.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/566.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/567.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/568.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/569.jpg" },
-        { hex: "http://o2tvseries.com/res/tv_serials/570.jpg" }
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7443.png"},
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7495.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7436.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7433.jpg" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7463.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7401.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7398.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7429.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7426.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7418.png" },
+        { hex: "https://s3-eu-west-1.amazonaws.com/games-live/game-img/7414.png" }
       ]
     }
   }
