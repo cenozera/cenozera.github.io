@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,7 @@
     <meta name="keywords" content="games,game,app,software,code" />
     <meta name="author" content="© 2018 B.C.R" />
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/955130775472451584/vADJRImg_400x400.jpg" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <title>CENOZERA</title>
 
@@ -148,6 +149,15 @@
 		170px 290px #9f4a9f,
 		180px 290px #9f4a9f;
 }
+header {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 	</style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41640153-4"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "UA-41640153-4");</script>
@@ -165,10 +175,10 @@
       <h2 class="title">Menu</h2>
       <div>
         <!--<button type="button" class="btn">Normal</button>-->
-		<button type="button" class="btn is-error">About</button>
-		<button type="button" class="btn is-success">Popular Online Games</button>
+		<a href="about.html"><button type="button" class="btn is-error">About</button></a>
+		<a href="pong.html"><button type="button" class="btn is-success">Popular Online Games</button></a>
         <button type="button" class="btn is-primary">Games By Cenozera</button>
-        <button type="button" class="btn is-warning">Software and Tech</button>
+        <a href="snt.html"><button type="button" class="btn is-warning">Software and Tech</button></a>
         
       </div>
     </section>
