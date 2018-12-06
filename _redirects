@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://cenozera.netlify.com/* http://cenozera.com/:splat 301!
