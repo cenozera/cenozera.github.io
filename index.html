@@ -1,251 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-		<meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Apps & Games for Web,Mobile,Desktop" />
-    <meta name="keywords" content="games,game,app,software,code" />
-    <meta name="author" content="© 2018 B.C.R" />
-    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/955130775472451584/vADJRImg_400x400.jpg" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="description" content=" " />
+    <meta name="keywords" content="game,games" />
+    <meta name="author" content="© 2018 B.C.Rikko" />
+    <meta name="theme-color" content="#212529"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" sizes="196x196" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>CENOZERA</title>
 
-    <link href="./css/nes.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link href="./style.css" rel="stylesheet" />
+    <script src="./lib/vue.min.js"></script>
+
+    <script src="./lib/dialog-polyfill.js"></script>
+    <script src="./lib/highlight.js"></script>
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="CENOZERA" />
-    <meta property="og:url" content="https://cenozera.com" />
-    <meta property="og:description" content="Apps & Games for Web,Mobile,Desktop" />
-    <meta property="og:image" content="https://pbs.twimg.com/profile_images/955130775472451584/vADJRImg_400x400.jpg" />
+    <meta property="og:url" content="https://cenozera.com/" />
+    <meta property="og:description" content="Apps & Game Development for Web,Mobile,Desktop" />
+    <meta property="og:image" content="cropped-cenozera_logo02.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@cenozerra" />
     <meta name="twitter:creator" content="@cenozerra" />
-    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/955130775472451584/vADJRImg_400x400.jpg" />
-    
-	<style>
-		.btn.is-warning:hover, .btn.is-warning:focus {
-    background-color: #8417c7;
-    box-shadow: inset -6px -6px #6e01ff;
-}
-.btn.is-warning {
-    color: #212529;
-    background-color: #991df7;
-    box-shadow: inset -4px -4px #6e01ff;
-}
-.pixels {
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: -160px 230px 300px -90px;
-	box-shadow: 
-		140px 160px #ec1a23,
-		150px 160px #ec1a23,
-		160px 160px #ec1a23,
-		170px 160px #ec1a23,
-		120px 170px #ec1a23,
-		130px 170px #ec1a23,
-		180px 170px #ec1a23,
-		190px 170px #ec1a23,
-		110px 180px #ec1a23,
-		200px 180px #ec1a23,
-		100px 190px #ec1a23,
-		210px 190px #ec1a23,
-		100px 200px #ec1a23,
-		210px 200px #ec1a23,
-		90px 210px #ec1a23,
-		220px 210px #ec1a23,
-		90px 220px #ec1a23,
-		220px 220px #ec1a23,
-		90px 230px #ec1a23,
-		220px 230px #ec1a23,
-		90px 240px #ec1a23,
-		130px 240px #ec1a23,
-		140px 240px #ec1a23,
-		150px 240px #ec1a23,
-		160px 240px #ec1a23,
-		170px 240px #ec1a23,
-		180px 240px #ec1a23,
-		220px 240px #ec1a23,
-		100px 250px #ec1a23,
-		110px 250px #ec1a23,
-		120px 250px #ec1a23,
-		140px 250px #000000,
-		170px 250px #000000,
-		190px 250px #ec1a23,
-		200px 250px #ec1a23,
-		210px 250px #ec1a23,
-		110px 260px #b2e617,
-		140px 255px #000000,
-		170px 255px #000000,
-		200px 260px #b2e617,
-		110px 270px #b2e617,
-		200px 270px #b2e617,
-		120px 280px #b2e617,
-		190px 280px #b2e617,
-		130px 290px #b2e617,
-		140px 290px #b2e617,
-		150px 290px #b2e617,
-		160px 290px #b2e617,
-		170px 290px #b2e617,
-		180px 290px #b2e617;
-}
-.pixels2 {
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: -160px 230px 300px -90px;
-	box-shadow: 
-		140px 160px #99d8e9,
-		150px 160px #99d8e9,
-		160px 160px #99d8e9,
-		170px 160px #99d8e9,
-		120px 170px #99d8e9,
-		130px 170px #99d8e9,
-		180px 170px #99d8e9,
-		190px 170px #99d8e9,
-		110px 180px #99d8e9,
-		200px 180px #99d8e9,
-		100px 190px #99d8e9,
-		210px 190px #99d8e9,
-		100px 200px #99d8e9,
-		210px 200px #99d8e9,
-		90px 210px #99d8e9,
-		220px 210px #99d8e9,
-		90px 220px #99d8e9,
-		220px 220px #99d8e9,
-		90px 230px #99d8e9,
-		220px 230px #99d8e9,
-		90px 240px #99d8e9,
-		130px 240px #99d8e9,
-		140px 240px #99d8e9,
-		150px 240px #99d8e9,
-		160px 240px #99d8e9,
-		170px 240px #99d8e9,
-		180px 240px #99d8e9,
-		220px 240px #99d8e9,
-		100px 250px #99d8e9,
-		110px 250px #99d8e9,
-		120px 250px #99d8e9,
-		140px 250px #000000,
-		170px 250px #000000,
-		190px 250px #99d8e9,
-		200px 250px #99d8e9,
-		210px 250px #99d8e9,
-		110px 260px #9f4a9f,
-		140px 255px #000000,
-		170px 255px #000000,
-		200px 260px #9f4a9f,
-		110px 270px #9f4a9f,
-		200px 270px #9f4a9f,
-		120px 280px #9f4a9f,
-		190px 280px #9f4a9f,
-		130px 290px #9f4a9f,
-		140px 290px #9f4a9f,
-		150px 290px #9f4a9f,
-		160px 290px #9f4a9f,
-		170px 290px #9f4a9f,
-		180px 290px #9f4a9f;
-}
-header {
-  font-family: 'Press Start 2P', cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-	</style>
+    <meta name="twitter:image" content="cropped-cenozera_logo02.png" />
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41640153-4"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "UA-41640153-4");</script>
+    <script>
+      if (window.navigator.userAgent.toLocaleLowerCase().indexOf('trident') !== -1) {
+        window.alert('IE is not supported on this page.')
+      }
+
+    </script>
   </head>
 
   <body>
-  
-    <header>
-      <h1><img style="margin-bottom: -50px;margin-right: 30px;margin-left: -60px; max-width: 100%;
-    height: auto;" src="400x400.jpg">Welcome to Cenozera</h1>
-      <p>Apps & Games Reviews for Web,Mobile,Desktop</p>
-    </header>
-<a href="https://securegw.paytm.in/link/21564/LL_3448555"
+    <div id="nescss">
+      <header :class="{ sticky: scrollPos > 50 }">
+        <div class="container">
+          <div class="nav-brand">
+            <a href="https://cenozera.com/">
+              <h1> <div class="brand-logo" style="height: 14px; width: 15px; float:right; transform: scale(0.2);box-shadow: 0px 15px #333,15px 15px #333,30px 15px #333,45px 15px #333,60px 15px #333,75px 15px #333,90px 15px #333,105px 15px #333,120px 15px #333,135px 15px #333,150px 15px #333,165px 15px #333,180px 15px #333,195px 15px #333,210px 15px #333,0px 30px #333,15px 30px #fff,30px 30px #fff,45px 30px #fff,60px 30px #fff,75px 30px #fff,90px 30px #fff,105px 30px #fff,120px 30px #fff,135px 30px #fff,150px 30px #fff,165px 30px #fff,180px 30px #fff,195px 30px #fff,210px 30px #333,0px 45px #333,15px 45px #fff,30px 45px #fff,45px 45px #fff,60px 45px #fff,75px 45px #333,90px 45px #fff,105px 45px #fff,120px 45px #fff,135px 45px #fff,150px 45px #fff,165px 45px #fff,180px 45px #fff,195px 45px #fff,210px 45px #333,0px 60px #333,15px 60px #fff,30px 60px #fff,45px 60px #fff,60px 60px #333,75px 60px #f00,90px 60px #333,105px 60px #fff,120px 60px #fff,135px 60px #fff,150px 60px #fff,165px 60px #fff,180px 60px #fff,195px 60px #fff,210px 60px #333,0px 75px #333,15px 75px #fff,30px 75px #fff,45px 75px #333,60px 75px #f00,75px 75px #f00,90px 75px #f00,105px 75px #333,120px 75px #fff,135px 75px #fff,150px 75px #fff,165px 75px #fff,180px 75px #fff,195px 75px #fff,210px 75px #333,0px 90px #333,15px 90px #fff,30px 90px #333,45px 90px #f00,60px 90px #f00,75px 90px #f00,90px 90px #333,105px 90px #0f0,120px 90px #333,135px 90px #fff,150px 90px #fff,165px 90px #fff,180px 90px #fff,195px 90px #fff,210px 90px #333,0px 105px #333,15px 105px #fff,30px 105px #333,45px 105px #f00,60px 105px #f00,75px 105px #333,90px 105px #0f0,105px 105px #0f0,120px 105px #0f0,135px 105px #333,150px 105px #fff,165px 105px #fff,180px 105px #fff,195px 105px #fff,210px 105px #333,0px 120px #333,15px 120px #fff,30px 120px #333,45px 120px #00f,60px 120px #00f,75px 120px #333,90px 120px #8E44AD,105px 120px #8E44AD,120px 120px #0f0,135px 120px #0f0,150px 120px #333,165px 120px #fff,180px 120px #fff,195px 120px #fff,210px 120px #333,0px 135px #333,15px 135px #fff,30px 135px #333,45px 135px #00f,60px 135px #00f,75px 135px #333,90px 135px #8E44AD,105px 135px #8E44AD,120px 135px #8E44AD,135px 135px #0f0,150px 135px #0f0,165px 135px #333,180px 135px #fff,195px 135px #fff,210px 135px #333,0px 150px #333,15px 150px #fff,30px 150px #fff,45px 150px #333,60px 150px #00f,75px 150px #00f,90px 150px #333,105px 150px #8E44AD,120px 150px #8E44AD,135px 150px #8E44AD,150px 150px #0f0,165px 150px #0f0,180px 150px #333,195px 150px #fff,210px 150px #333,0px 165px #333,15px 165px #fff,30px 165px #fff,45px 165px #fff,60px 165px #333,75px 165px #333,90px 165px #333,105px 165px #333,120px 165px #333,135px 165px #333,150px 165px #333,165px 165px #333,180px 165px #333,195px 165px #fff,210px 165px #333,0px 180px #333,15px 180px #fff,30px 180px #fff,45px 180px #fff,60px 180px #fff,75px 180px #fff,90px 180px #fff,105px 180px #fff,120px 180px #fff,135px 180px #fff,150px 180px #fff,165px 180px #fff,180px 180px #fff,195px 180px #fff,210px 180px #333,0px 195px #333,15px 195px #fff,30px 195px #fff,45px 195px #fff,60px 195px #fff,75px 195px #fff,90px 195px #fff,105px 195px #fff,120px 195px #fff,135px 195px #fff,150px 195px #fff,165px 195px #fff,180px 195px #fff,195px 195px #fff,210px 195px #333,0px 210px #333,15px 210px #fff,30px 210px #fff,45px 210px #fff,60px 210px #fff,75px 210px #fff,90px 210px #fff,105px 210px #fff,120px 210px #fff,135px 210px #fff,150px 210px #fff,165px 210px #fff,180px 210px #fff,195px 210px #fff,210px 210px #333,0px 225px #333,15px 225px #333,30px 225px #333,45px 225px #333,60px 225px #333,75px 225px #333,90px 225px #333,105px 225px #333,120px 225px #333,135px 225px #333,150px 225px #333,165px 225px #333,180px 225px #333,195px 225px #333,210px 225px #333;"></div></i>CENOZERA</h1>
+            </a>
+			
+            <p>Apps & Game Development for Web,Mobile,Desktop</p>
+          </div>
+
+          <div class="social-buttons">
+            <p>Share :</p>
+            <div class="share">
+              <a @click="share('twitter')"><i class="nes-icon twitter"></i></a>
+              <a @click="share('facebook')"><i class="nes-icon facebook"></i></a>
+              <!--<a @click="share('instagram')"><i class="nes-icon instagram"></i></a>-->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <main class="main-content">
+          <a class="github-link" :class="{ active:  scrollPos < 200 }" href=" " target="_blank" rel="noopener" @mouseover="startAnimate" @mouseout="stopAnimate">
+            <!--<p class="nes-balloon from-right">Fork me<br />on GitHub</p>-->
+            <img src="minecraft.png" class="nes-octocat" :class="animateOctocat ? 'animate' : ''"></img>
+          </a>
+ 
+		  <!-- Support -->
+          <section class="topic">
+            <h2 id="about"><a href="#about"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a>Your Contribution Required</h2>
+            <p>This site is running ad free.You can help keep it that way.Any and all amount of monetary contribution from you is very much appreciated.</p>
+			<a href="https://securegw.paytm.in/link/21564/LL_3448555"
         target='_blank' rel='im-checkout' data-behaviour='remote'
         data-style='light' data-text="Donate with Paytm" style="border-radius: 2px;display: inline-block;border: 1px solid #e6ebf3;padding: 0 41px;color: #182233;font-size: 16px;text-decoration: none;font-family: 'Nunito Sans', sans-serif;height: 56px;line-height: 56px;background: #ffffff;border: 1px solid #e8edf4;color: #182233;">
         <span>Donate  with</span>
             <img style="margin-left: 6px;vertical-align:sub;width: 74px;"
                  src="https://static1.paytm.in/1.4/plogo/paytmlogo-coloured.png" /></a><br/> 
-				 <iframe src="https://securegw.paytm.in/link/21564/LL_3448555">
+				 <iframe style="width:100%" src="https://securegw.paytm.in/link/21564/LL_3448555">
   <p>Your browser does not support iframes.</p>
 </iframe>
-    <section class="container with-title">
-      <h2 class="title">Menu</h2>
-      <div>
-        <!--<button type="button" class="btn">Normal</button>-->
-		<a href="about.html"><button type="button" class="btn is-error">About</button></a>
-		<a href="pong.html"><button type="button" class="btn is-success">Popular Online Games</button></a>
-		<a href="https://cenozera.itch.io" target="_blank"><button type="button" class="btn is-primary">Games By Cenozera</button></a>
-        <a href="snt.html"><button type="button" class="btn is-warning">Software and Tech</button></a>
-        
-      </div>
-    </section>
+          </section>
+		  
+		  <!-- About -->
+          <section class="topic">
+            <h2 id="about"><a href="#about"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a>About</h2>
+            <p>The name cenozera is derived from the name of the 3rd Geological era of time called the Cenozoic era. The 1st era Paleozoic era dates from 540 million – 248 million years ago and is characterized by organisms such as insects,fish etc. The 2nd era Mesozoic era dates from 248 million – 65 million years ago and is primarily characterized by dinosaurs. The extinction of dinosaurs 65 million yrs ago marked the beginning of Cenozoic era, the era of “mammals” and it continues into the present.</p>
+          </section>
 
-    <section class="container with-title">
-      <h2 class="title">Links</h2>
-      <div class="container is-dark with-title">
-          <p class="title">Facebook<i class="icon like"></i></p>
-          <p style="color: white;"><a href="https://facebook.com/cenoz3ra" target="_blank">
-<i class="icon facebook is-large"></i></a></p>
-        </div>
-        <div class="container is-dark with-title">
-          <p class="title">Twitter</p>
-          <p style="color: white;"><a class="twitter-follow-button"
-  href="https://twitter.com/cenozerra" target="_blank">
-<i class="icon twitter is-large"></i></a></p>
-        </div>
-        <div class="container is-dark with-title">
-          <a href="https://www.youtube.com/user/1123vibhu" target="_blank"><p class="title">Youtube<i class="icon youtube"></i></p></a>
-		  <p style="color: white;font-size:12px">Subscribe</p>
-		  <script src="https://apis.google.com/js/platform.js"></script>
 
-<div class="g-ytsubscribe" data-channel="1123vibhu" data-layout="default" data-count="default"></div>
-          
-        </div>
-        <div class="container with-title">
-          <p class="title">X-box</p>
-          <p style="color: white;"><a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank">
-<i class="icon close is-large"></i></a></p>
-        </div>
-      </div>
-    </section>
- 
-    <section class="balloon container with-title">
-      <h2 class="title">Support Cenozera on Ko-Fi.com</h2>
-      <div class="messages">
-        <div class="message -left">
-          <i class="pixels"></i>
-          <div class="balloon from-left">
-            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'Z8Z1M72U');kofiwidget2.draw();</script> 
-          </div>
-        </div>
-        <div class="message -right">
-          <div class="balloon from-right">
-            <p>Follow on Itch.io</p>
+          <!-- Installation -->
+          <section class="topic">
+            <h2 id="installation"><a href="#installation"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a>Wordpress</h2>
+             <a href="https://cenozera.wordpress.com"><img style=" max-width: 100%;
+    height: auto;" src="1657.gif"></a>
+	Tech blog on <a href="https://cenozera.wordpress.com">WORDPRESS</a>
+          </section>
+
+          <!-- Usage -->
+          <section class="topic">
+            <h2 id="usage"><a href="#usage"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a><a href="https://cenozera.itch.io/">Itch.io</a></h2>
 			<a href="https://itch.io/login?return_to=https%3A%2F%2Fcenozera.itch.io%2F&amp;intent=follow_user" class="action_btn"><svg height="17" width="20" class="svgicon icon_itchio_new" role="img" aria-hidden="" viewBox="0 0 262.728 235.452" version="1.1"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08c10.684-30.007 26.017-30.007 29.85-30.007zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z"></path></svg>Follow cenozera</a>
-          </div>
-		  <br/>
-		  <br/>
-          <i class="pixels2"></i>
+
+            <section class="showcase" v-for="sample in collection" :key="sample">
+              <section class="nes-container with-title">
+                <h3 class="title">{{ sample.title | capitalize }}</h3>
+                <div
+                  :id="sample.title"
+                  class="item"
+                  v-html="sample.code">
+                </div>
+                <p v-if="sample.description" class="description nes-text">{{ sample.description }}</p>
+                <p v-if="sample.note" class="note nes-text is-error">{{ sample.note }}</p>
+                <!--<button type="button" class="nes-btn is-primary showcode" @click="sample.showCode = !sample.showCode">&lt;&gt;</button>-->
+              </section>
+              <section class="samplecode" v-show="sample.showCode">
+                <button type="button" class="nes-btn copycode" @click="copy($event, sample.title)">copy</button>
+                <pre><code class="html">{{ sample.code }}</code></pre>
+              </section>
+            </section>
+          </section>
+
+          <!-- Members 
+          <section class="topic">
+            <h2 id="members"><a href="#members"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a>Download Games</h2>
+            <section class="coreteam">
+              <h3 class="topic-title"><i class="nes-icon star"></i>Mobile Games</h3>
+              <p>Point & Click 3d Games for Android<p>
+
+              <div class="coreteam-members">
+                <template v-for="member in coreteam">
+                  <section class="nes-container is-dark member-card">
+                    <div class="avatar">
+                      <img class="lazy" :data-src="'https://github.com/' + member.github + '.png?size=80'" :alt="'Core Member ' + member.name">
+                    </div>
+                    <div class="profile">
+                      <h4 class="name">{{ member.name }}</h4>
+                      <p>{{ member.feat }}</p>
+                      <div>
+                        <a :href="'https://github.com/' + member.github" target="_blank" rel="noopener" aria-label="github"><i class="nes-icon github"></i></a>
+                        <a :href="'https://twitter.com/' + member.twitter" target="_blank" rel="noopener" aria-label="twitter"><i class="nes-icon twitter"></i></a>
+                      </div>
+                    </div>
+                  </section>
+                </template>
+              </div>
+            </section>
+            <section class="coreteam-emeriti" v-if="emeriti.length > 0">
+              <h3 class="topic-title"><i class="nes-icon trophy"></i>Desktop Games</h3>
+              <p>2D Platformer Games for Desktop</p>
+
+              <div class="coreteam-members">
+                <template v-for="member in emeriti">
+                  <section class="nes-container is-dark member-card">
+                    <div class="avatar">
+                      <img class="lazy" :data-src="'https://github.com/' + member.github + '.png?size=80'" :alt="'Emeriti ' + member.name">
+                    </div>
+                    <div class="profile">
+                      <h4 class="name">{{ member.name }}</h4>
+                      <p>{{ member.feat }}</p>
+                      <div>
+                        <a :href="'https://github.com/' + member.github" target="_blank" rel="noopener" aria-label="github"><i class="nes-icon github"></i></a>
+                        <a :href="'https://twitter.com/' + member.twitter" target="_blank" rel="noopener" aria-label="twitter"><i class="nes-icon twitter"></i></a>
+                      </div>
+                    </div>
+                  </section>
+                </template>
+              </div>
+            </section>
+            <section class="contributors">
+              <h3 class="topic-title"><i class="nes-icon heart"></i>Play Now! Online Web games</h3>
+              <template v-for="user in contributors">
+                <a class="contributor" :href="'https://github.com/' + user" target="_black">
+                  <img class="nes-avatar is-large is-rounded lazy" :data-src="'https://github.com/' + user + '.png?size=64'" :alt="'Contributor ' + user">
+                  <p>{{ user }}</p>
+                </a>
+              </template>
+            </section>
+          </section>
+
+          <!-- Articles 
+          <section class="topic">
+              <h2 id="articles"><a href="#articles"><i class="fa fa-chevron-circle-down" style="font-size:24px"></i></a>Articles</h2>
+              <article class="article-link">
+                <h3 class="title">
+                  <a href=" " target="_blank" rel="noopener"><i class="nes-icon medium"></i><span> css</span></a>
+                </h3>
+              </article>
+              <article class="article-link">
+                <h3 class="title">
+                  <a href=" " target="_blank" rel="noopener"><i class="nes-icon github"></i><span> Blog</span></a>
+                </h3>
+              </article>
+          </section>-->
+
+        </main>
+
+        <footer>
+          <p>
+            <!--<span>&copy;2018</span>
+            <a href=" " target="_blank" rel="noopener">Black Everyday Company</a>
+            <span>-</span>
+            <a href="https://twitter.com/bc_rikko" target="_blank" rel="noopener">@bc_rikko</a>-->
+          </p>
+        </footer>
+
+        <!-- Copied balloon -->
+        <div class="nes-balloon from-right copied-balloon" :style="copiedBalloon">
+          <p>copied!!</p>
         </div>
+
+        <!-- FAB Button -->
+        <button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
       </div>
-    </section>
- 
-    <footer class="footer">
-      <p>
-        CENOZERA
-      </p>
-    </footer>
+    </div>
   </body>
-  
+  <script src="./script.js"></script>
+  <script>
+    const h = document.querySelector('head');
+    ['./lib/dialog-polyfill.css', './lib/highlight-theme.css'].forEach(a => {
+      const l = document.createElement('link');
+      l.href = a;
+      l.rel = 'stylesheet';
+      h.appendChild(l);
+    })
+  </script>
 </html>
