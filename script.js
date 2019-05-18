@@ -441,9 +441,18 @@ const sampleCollection = [
   <!-- youtube -->
   <a href="https://www.youtube.com/c/1123vibhu" target="_blank"><i class="nes-icon youtube is-large"></i></a>
 
+  <!-- discord -->
+  <a href="https://discordhub.com/profile/452561411944611861" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
+    transform: scale(4);margin-top: -48px;" src="discord.jpg"></img></a>
+ 
   <!-- reddit -->
   <a href="https://www.reddit.com/user/cenozera/" target="_blank"><i class="nes-icon reddit is-large"></i></a>
 
+  <!-- roblox -->
+  <a href="https://www.roblox.com/users/1084036651/profile" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
+    transform: scale(4);margin-top: -48px;" src="roblox.png"></img></a>
+  
+  
   <!-- whatsapp -->
    <a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank"><i class="nes-icon close is-large"></i></a>
 </section>`,
