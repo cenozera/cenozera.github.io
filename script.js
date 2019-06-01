@@ -453,8 +453,12 @@ const sampleCollection = [
     transform: scale(4);margin-top: -48px;" src="roblox.png"></img></a>
   
   
-  <!-- whatsapp -->
-   <a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank"><i class="nes-icon close is-large"></i></a>
+  <!-- xbox -->
+   <a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
+    transform: scale(4);margin-top: -48px;" src="xbox1.png"></img></a>
+	 <!-- manyland -->
+   <a href="https://manyunity.com/users/1678" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
+    transform: scale(4);margin-top: -48px;" src="manyunity.png"></img></a>
 </section>`,
   } /* ,
   {
@@ -511,73 +515,50 @@ const sampleCollection = [
 
 const coreteam = [
   {
-    name: 'B.C.Rikko',
-    feat: 'Creator of NES.css',
-    github: 'BcRikko',
-    twitter: 'bc_rikko',
+    name: '',
+    feat: '',
+    github: '',
+    twitter: '',
   },
   {
-    name: 'Igor Guastalla',
-    feat: 'Development support',
-    github: 'guastallaigor',
-    twitter: 'guastallaigor',
+    name: '',
+    feat: '',
+    github: '',
+    twitter: '',
   },
 ];
 
 const emeriti = [
   {
-    name: 'Trezy',
-    feat: 'Setup DevOps',
-    github: 'trezy',
-    twitter: 'TrezyCodes',
+    name: '',
+    feat: '',
+    github: '',
+    twitter: '',
   },
   {
-    name: 'Abdullah Samman',
-    feat: 'Setup test suite',
-    github: 'evexoio',
-    twitter: 'evexoio',
+    name: '',
+    feat: '',
+    github: '',
+    twitter: '',
   },
 ];
 
 // https://api.github.com/repos/nostalgic-css/NES.css/contributors?per_page=100 | jq . '.[].login'
-const contributors = [
-  '4k1k0',
-  'sombreroEnPuntas',
-  'Divoolej',
-  'soph-iest',
-  'KeevanDance',
-  'montezume',
-  'sazzadsazib',
-  'jjspace',
-  'ohlookitsderpy',
-  'jdvivar',
-  'Ilyeo',
-  'youngkaneda',
-  'kenshinji',
-  'Kartones',
-  'IngwiePhoenix',
-  'Takumi0901',
-  'Baldomo',
-  'ernestomancebo',
-  'stewartrule',
-  'DanSnow',
-  'rrj-dev',
-  'vicainelli',
-  'sinofp',
-  'tnantoka',
-  'LukBukkit',
-  'd0p1s4m4',
-  'musavvirahmed',
-  'KOREAN139',
-  'loo41',
-  'otaviopace',
-  'alexgleason',
-  'fleeting',
-  'scottaohara',
-  'JamesIves',
-  'agarzola',
-  'jsoref',
+var contributors = [
+'MMS',
+'THE DART KNIGHT',
+'GIT SMART',
+'Pirates of the Caribbeangular',
+'REACTING',
+'CSharpe',
+'Set Phasers To Stun',
+'OOPS I DID IT AGAIN',
+'VISUAL STUDIO',
+'VS CODE',
+'LOVEGAME',
+'VUE 2 A KILL'
 ];
+ 
 
 new Vue({
   el: '#nescss',
