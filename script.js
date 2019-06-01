@@ -406,7 +406,7 @@ const sampleCollection = [
 </section>`,
   },*/
   {
-    title: 'Links',
+    title: 'Social Links',
     showCode: false,
     description:
       ' ',
@@ -435,32 +435,39 @@ const sampleCollection = [
   <!-- linkedin -->
   <!--<i class="nes-icon linkedin is-large"></i>-->
 
-  <!-- twitch -->
+     <!-- twitch -->
   <a href="https://www.twitch.tv/cenozera" target="_blank"><i class="nes-icon twitch is-large"></i></a>
 
   <!-- youtube -->
   <a href="https://www.youtube.com/c/1123vibhu" target="_blank"><i class="nes-icon youtube is-large"></i></a>
 
-  <!-- discord -->
-  <a href="https://discordhub.com/profile/452561411944611861" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
-    transform: scale(4);margin-top: -48px;" src="discord.jpg"></img></a>
+
  
   <!-- reddit -->
   <a href="https://www.reddit.com/user/cenozera/" target="_blank"><i class="nes-icon reddit is-large"></i></a>
 
-  <!-- roblox -->
-  <a href="https://www.roblox.com/users/1084036651/profile" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
-    transform: scale(4);margin-top: -48px;" src="roblox.png"></img></a>
+</section>`,
+  },
+  {
+    title: 'Gaming Links',
+    showCode: false,
+    description:
+      ' ',
+  code: `<section class="icon-list">
+    <!-- roblox -->
+  <a href="https://www.roblox.com/users/1084036651/profile" target="_blank"><img class="nes-icon is-large"  src="roblox.png"></img></a>
   
   
   <!-- xbox -->
-   <a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
-    transform: scale(4);margin-top: -48px;" src="xbox1.png"></img></a>
+   <a href="https://www.xboxgamertag.com/search/cenozera/" target="_blank"><img class="nes-icon is-large"   src="xbox1.png"></img></a>
 	 <!-- manyland -->
-   <a href="https://manyunity.com/users/1678" target="_blank"><img class="nes-icon is-large" style="margin-right:48px;margin-bottom:48px;
-    transform: scale(4);margin-top: -48px;" src="manyunity.png"></img></a>
-</section>`,
-  } /* ,
+   <a href="https://manyunity.com/users/1678" target="_blank"><img class="nes-icon is-large"  " src="manyunity.png"></img></a>
+
+    <!-- discord -->
+  <a href="https://discordhub.com/profile/452561411944611861" target="_blank"><img class="nes-icon is-large"  src="discord.jpg"></img></a>
+</section>
+  `,}
+  /* ,
   {
     title: 'other-icons',
     showCode: false,
