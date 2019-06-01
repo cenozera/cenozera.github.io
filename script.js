@@ -440,8 +440,6 @@ const sampleCollection = [
 
   <!-- youtube -->
   <a href="https://www.youtube.com/c/1123vibhu" target="_blank"><i class="nes-icon youtube is-large"></i></a>
-
-
  
   <!-- reddit -->
   <a href="https://www.reddit.com/user/cenozera/" target="_blank"><i class="nes-icon reddit is-large"></i></a>
@@ -465,6 +463,12 @@ const sampleCollection = [
 
     <!-- discord -->
   <a href="https://discordhub.com/profile/452561411944611861" target="_blank"><img class="nes-icon is-large"  src="discord.jpg"></img></a>
+  
+  <!-- indiedb -->
+  <a href="https://www.indiedb.com/members/cenozera/" target="_blank"><img class="nes-icon is-large"  src="indiedb.png"></img></a>
+  
+    <!-- itch -->
+  <a href="https://cenozera.itch.io/" target="_blank"><img class="nes-icon is-large"  src="itchio.svg"></img></a>
 </section>
   `,}
   /* ,
