@@ -556,18 +556,7 @@ const emeriti = [
 
 // https://api.github.com/repos/nostalgic-css/NES.css/contributors?per_page=100 | jq . '.[].login'
 var contributors = [
-'MMS',
-'THE DART KNIGHT',
-'GIT SMART',
-'Pirates of the Caribbeangular',
-'REACTING',
-'CSharpe',
-'Set Phasers To Stun',
-'OOPS I DID IT AGAIN',
-'VISUAL STUDIO',
-'VS CODE',
-'LOVEGAME',
-'VUE 2 A KILL'
+
 ];
  
 
