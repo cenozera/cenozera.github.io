@@ -610,9 +610,9 @@ new Vue({
       const url = (() => {
         switch (media) {
           case 'twitter':
-            return 'https://twitter.com/share?text=CENOZERA%EF%BD%9CApps%20and%20Game%20development&url=https://cenozera.com/';
+            return 'https://twitter.com/share?text=CENOZERA%EF%BD%9C&url=https://cenozera.com/';
           case 'facebook':
-            return 'https://www.facebook.com/sharer.php?u=https://cenozera.com/&t=CENOZERA%EF%BD%9CApps%20&%20Game%20development';
+            return 'https://www.facebook.com/sharer.php?u=https://cenozera.com/&t=CENOZERA%EF%BD%9C';
           case 'instagram':
             return 'https://www.linkedin.com/shareArticle?url=https%3A//nostalgic-css.github.io/NES.css/&title=NES.css%EF%BD%9CNES-style%20CSS%20Framework';
           case 'github':
