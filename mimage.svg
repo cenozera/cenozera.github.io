@@ -6,91 +6,87 @@
  </g>
  <g>
   <title>Layer 1</title>
-  <g id="illustration">
-   <path id="svg_1" fill="#ffffff" d="m523.3,868l0,46.8c0,48.8 55.4,50.3 55.4,4.5l0,-51.8l-55.4,0.5z"/>
-   <rect id="svg_2" fill="#ffffff" height="4.4" width="30.6" y="889.3" x="535.7"/>
-   <rect id="svg_3" fill="#ffffff" height="4.4" width="30.6" y="897.7" x="535.7"/>
-   <rect id="svg_4" fill="#ffffff" height="4.4" width="30.6" y="906.2" x="535.7"/>
-   <path id="svg_5" fill="#ffffff" d="m420,868l0,46.8c0,48.8 55.4,50.3 55.4,4.5l0,-51.8l-55.4,0.5z"/>
-   <path id="svg_6" fill="#ffffff" d="m394.4,493.8c0,66.4 0,148.9 0,228.2c0,55.8 0,110 0,155.8c56.6,0 58.8,0 99.7,0c0,-46.8 0,-101.4 0,-154.5c0,-75.9 0,-148.8 0,-191.6c5.9,0 14.5,0 19.9,0c0,41.3 0,115.8 0,191.6c0,54.9 0,110.4 0,154.5c45,0 34.6,0 91.7,0c0,-43 0,-97.5 0,-154.5c0,-79.5 0,-164 0,-229.5l-211.3,0z"/>
-   <rect id="svg_7" fill="#ffffff" height="4.4" width="30.6" y="889.3" x="432.4"/>
-   <rect id="svg_8" fill="#ffffff" height="4.4" width="30.6" y="897.7" x="432.4"/>
-   <rect id="svg_9" fill="#ffffff" height="4.4" width="30.6" y="906.2" x="432.4"/>
-   <path id="svg_10" fill="#ffffff" d="m376.9,509c0,-47.3 6,-116.9 31.1,-167.4c8.4,-16.8 18.9,-31.5 32,-42.5c15.7,-13.2 35.3,-21.2 59.4,-21.2c26.1,0 46.9,9.2 63.4,24.3c10.3,9.4 19,21.2 26.2,34.4c27.5,50.4 34.5,122.5 34.5,172.4l-246.6,0l0,0z"/>
-   <line id="svg_11" fill="#ffffff" y2="509.6" x2="384" y1="509.6" x1="616.8"/>
-   <ellipse id="svg_12" fill="#ffffff" ry="16.3" rx="22" cy="304.3" cx="500.9"/>
-   <path id="svg_13" fill="#ffffff" d="m843.8,326.2l17,-6.8c0,0 6.1,5.5 13,11.2s-4.7,18.4 -15.3,10.6c-10.7,-7.8 -14.7,-15 -14.7,-15z"/>
-   <path id="svg_14" fill="#ffffff" d="m285.8,267.1l3,56.8c58.9,0.3 93.5,-2.3 119.3,17.7l48.7,-50.2c-54.3,-26.7 -115,-27.7 -171,-24.3z"/>
-   <path id="svg_15" fill="#ffffff" d="m545.7,290.4l43.3,53.2c27,-16.2 67.7,-16.3 126.6,-16.7l0,-56.8c-56,-3.4 -99.2,-10.4 -169.9,20.3z"/>
-   <path id="svg_16" fill="#ffffff" d="m291,273.7c-47.7,2.7 -123.1,8.9 -160.2,14.2c-37.1,5.3 -40.1,40.1 5.3,39.5s95.2,-3.5 159.7,-12.1l-4.8,-41.6z"/>
-   <path id="svg_17" fill="#ffffff" d="m155.6,326.2l-17,-6.8c0,0 -6.1,5.5 -13,11.2c-6.9,5.7 4.7,18.4 15.3,10.6c10.7,-7.8 14.7,-15 14.7,-15z"/>
-   <path id="svg_18" fill="#ffffff" d="m709.7,318.3c64.5,8.6 113.3,11.5 158.7,12.1s42.4,-34.2 5.3,-39.5c-37.1,-5.3 -114.5,-11.5 -162.2,-14.2l-1.8,41.6z"/>
-   <path id="svg_19" fill="#ffffff" d="m489.5,211.9l20.9,0c0,0 4.3,67.3 5.7,90.8c-2.1,9.7 -9.1,11.3 -15.5,11.1c-8.2,-0.2 -15.9,-4.7 -17.1,-12.5l6,-89.4z"/>
-   <path id="svg_20" fill="#ffffff" d="m489.5,211.9l20.9,0c1.9,19 -21.6,89.4 -26.8,89.4l5.9,-89.4z"/>
-   <path id="svg_21" fill="#ffffff" d="m499,113c-27,0 -89,8 -56,64c24.8,42.1 88,44 110,3s-4,-67 -54,-67z"/>
-   <circle id="svg_22" fill="#ffffff" r="12.1" cy="182.8" cx="560.2"/>
-   <circle id="svg_23" fill="#ffffff" r="12.1" cy="182.8" cx="437.6"/>
-   <ellipse id="svg_24" fill="#ffffff" ry="57.6" rx="57" cy="177.4" cx="499.8"/>
-   <g id="svg_25">
-    <path fill="#ffffff" d="m487.5,209.6c0.3,0 0.5,0.3 0.5,0.5s-0.3,0.5 -0.5,0.5c-0.3,0 -0.5,-0.3 -0.5,-0.5s0.3,-0.5 0.5,-0.5z" id="rightMiddleLip_2_"/>
-    <circle fill="#ffffff" r="0.5" cy="209.9" cx="499.3" id="upperLipBottomMid_1_"/>
-    <circle fill="#ffffff" r="0.5" cy="209.6" cx="496.8" id="rightUpperLipBottom1_1_"/>
-    <path fill="#ffffff" d="m511.1,209.6c0.3,0 0.5,0.3 0.5,0.5s-0.3,0.5 -0.5,0.5s-0.5,-0.3 -0.5,-0.5s0.2,-0.5 0.5,-0.5z" id="leftMiddleLip_2_"/>
-    <circle fill="#ffffff" r="0.5" cy="209.6" cx="501.8" id="leftUpperLipBottom1_1_"/>
-    <path id="svg_26" fill="#ffffff" stroke="#DF7977" stroke-width="2" stroke-miterlimit="10" d="m488,210.1c0,0 7.7,-0.1 11.3,-0.1s11.9,-0.1 11.9,-0.1s-6.9,2.6 -11.9,2.6c-5.1,0 -11.3,-2.4 -11.3,-2.4z"/>
-    <circle fill="#ffffff" r="0.5" cy="211.9" cx="499.3" id="lowerLipTopMid_2_"/>
-    <circle fill="#ffffff" r="0.5" cy="211.4" cx="496.8" id="rightLowerLipTop0_2_"/>
-    <circle fill="#ffffff" r="0.5" cy="211.4" cx="501.8" id="leftLowerLipTop0_2_"/>
-   </g>
-   <g id="svg_27">
-    <ellipse id="svg_28" fill="#ffffff" ry="6.2" rx="7.8" cy="196.5" cx="464.1"/>
-    <ellipse id="svg_29" fill="#ffffff" ry="5.8" rx="3.6" cy="180.6" cx="464"/>
-    <circle fill="#ffffff" r="0.8" cy="160.2" cx="468.6" id="rightEye0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="156.5" cx="473.8" id="rightEye1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="162.5" cx="473.8" id="rightEye5_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="156.5" cx="480.1" id="rightEye2_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="160.7" cx="485.3" id="rightEye3_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="161.7" cx="480.1" id="rightEye4_1_"/>
-   </g>
-   <g id="svg_30">
-    <ellipse id="svg_31" fill="#ffffff" ry="5.8" rx="3.6" cy="179.6" cx="532.8"/>
-    <ellipse id="svg_32" fill="#ffffff" ry="6.2" rx="7.8" cy="196.5" cx="533.2"/>
-    <circle fill="#ffffff" r="0.8" cy="160.2" cx="528.2" id="leftEye0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="156.5" cx="523" id="leftEye1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="162.5" cx="523" id="leftEye5_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="156.5" cx="516.7" id="leftEye2_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="160.7" cx="511.5" id="leftEye3_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="161.7" cx="516.7" id="leftEye4_1_"/>
-   </g>
-   <g id="svg_33">
-    <path id="svg_34" fill="#ffffff" d="m518.8,159.9c10.7,-5 14.2,-5 19.2,0.7c-5,-0.7 -5.7,2.8 -19.2,-0.7z"/>
-    <circle fill="#ffffff" r="0.8" cy="148.7" cx="530.1" id="leftBrow1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="150.8" cx="506.5" id="leftBrow4_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="147.6" cx="516.5" id="leftBrow3_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="151.6" cx="534.1" id="leftBrow0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="147.2" cx="523.8" id="leftBrow2_1_"/>
-   </g>
-   <g id="svg_35">
-    <path id="svg_36" fill="#ffffff" d="m478,159.9c-10.7,-5 -14.2,-5 -19.2,0.7c5,-0.7 5.7,2.8 19.2,-0.7z"/>
-    <circle fill="#ffffff" r="0.8" cy="148.3" cx="466.4" id="rightBrow1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="151.3" cx="489.7" id="rightBrow4_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="147.3" cx="479.9" id="rightBrow3_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="152" cx="462.4" id="rightBrow0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="147.3" cx="472.6" id="rightBrow2_1_"/>
-   </g>
-   <path id="svg_37" fill="#ffffff" d="m456,138c1.9,7.7 62.3,20.7 82,-3c10,-12 9,-22 4,-25c-4.4,-2.6 -9,-6 -22,6c-1,-9 1,-15 -16,-17c-27.8,-3.3 -52.4,21 -48,39z"/>
-   <g id="svg_38">
-    <path id="svg_39" fill="#ffffff" stroke="#2C323A" stroke-width="2" stroke-miterlimit="10" d="m496.4,185.8c-1.2,0 -4.6,1.6 -5.8,5.2c-0.2,1.2 0.6,5.8 6,4.1c-0.1,-1 -4.7,-1.1 -4.5,-3.7c0.3,-1.8 2,-1.8 4.3,-5.6z"/>
-    <circle fill="#ffffff" r="0.8" cy="161.2" cx="497.6" id="nose1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="155.4" cx="497.6" id="nose0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="173.8" cx="497.6" id="nose3_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="178.3" cx="486.9" id="rightNose0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="178.3" cx="492.1" id="rightNose1_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="166.7" cx="497.6" id="nose2_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="179.1" cx="497.6" id="nose4_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="178.3" cx="508" id="leftNose0_1_"/>
-    <circle fill="#ffffff" r="0.8" cy="178.3" cx="503.2" id="leftNose1_1_"/>
-   </g>
+  <path id="svg_1" fill="#60504B" d="m523.3,868l0,46.8c0,48.8 55.4,50.3 55.4,4.5l0,-51.8l-55.4,0.5z"/>
+  <rect id="svg_2" fill="#FFFFFF" height="4.4" width="30.6" y="889.3" x="535.7"/>
+  <rect id="svg_3" fill="#FFFFFF" height="4.4" width="30.6" y="897.7" x="535.7"/>
+  <rect id="svg_4" fill="#FFFFFF" height="4.4" width="30.6" y="906.2" x="535.7"/>
+  <path id="svg_5" fill="#60504B" d="m420,868l0,46.8c0,48.8 55.4,50.3 55.4,4.5l0,-51.8l-55.4,0.5z"/>
+  <path id="svg_6" fill="#3D527F" d="m394.4,493.8c0,66.4 0,148.9 0,228.2c0,55.8 0,110 0,155.8c56.6,0 58.8,0 99.7,0c0,-46.8 0,-101.4 0,-154.5c0,-75.9 0,-148.8 0,-191.6c5.9,0 14.5,0 19.9,0c0,41.3 0,115.8 0,191.6c0,54.9 0,110.4 0,154.5c45,0 34.6,0 91.7,0c0,-43 0,-97.5 0,-154.5c0,-79.5 0,-164 0,-229.5l-211.3,0z"/>
+  <rect id="svg_7" fill="#FFFFFF" height="4.4" width="30.6" y="889.3" x="432.4"/>
+  <rect id="svg_8" fill="#FFFFFF" height="4.4" width="30.6" y="897.7" x="432.4"/>
+  <rect id="svg_9" fill="#FFFFFF" height="4.4" width="30.6" y="906.2" x="432.4"/>
+  <path id="svg_10" fill="#645A73" d="m376.9,509c0,-47.3 6,-116.9 31.1,-167.4c8.4,-16.8 18.9,-31.5 32,-42.5c15.7,-13.2 35.3,-21.2 59.4,-21.2c26.1,0 46.9,9.2 63.4,24.3c10.3,9.4 19,21.2 26.2,34.4c27.5,50.4 34.5,122.5 34.5,172.4l-246.6,0l0,0z"/>
+  <line id="svg_11" fill="none" y2="509.6" x2="384" y1="509.6" x1="616.8"/>
+  <ellipse id="svg_12" fill="#FFFFFF" ry="16.3" rx="22" cy="304.3" cx="500.9"/>
+  <path id="svg_13" fill="#F3AF9D" d="m843.8,326.2l17,-6.8c0,0 6.1,5.5 13,11.2s-4.7,18.4 -15.3,10.6c-10.7,-7.8 -14.7,-15 -14.7,-15z"/>
+  <path id="svg_14" fill="#74556D" d="m285.8,267.1l3,56.8c58.9,0.3 93.5,-2.3 119.3,17.7l48.7,-50.2c-54.3,-26.7 -115,-27.7 -171,-24.3z"/>
+  <path id="svg_15" fill="#74556D" d="m545.7,290.4l43.3,53.2c27,-16.2 67.7,-16.3 126.6,-16.7l0,-56.8c-56,-3.4 -99.2,-10.4 -169.9,20.3z"/>
+  <path id="svg_16" fill="#74556D" d="m291,273.7c-47.7,2.7 -123.1,8.9 -160.2,14.2c-37.1,5.3 -40.1,40.1 5.3,39.5s95.2,-3.5 159.7,-12.1l-4.8,-41.6z"/>
+  <path id="svg_17" fill="#F3AF9D" d="m155.6,326.2l-17,-6.8c0,0 -6.1,5.5 -13,11.2c-6.9,5.7 4.7,18.4 15.3,10.6c10.7,-7.8 14.7,-15 14.7,-15z"/>
+  <path id="svg_18" fill="#74556D" d="m709.7,318.3c64.5,8.6 113.3,11.5 158.7,12.1s42.4,-34.2 5.3,-39.5c-37.1,-5.3 -114.5,-11.5 -162.2,-14.2l-1.8,41.6z"/>
+  <path id="svg_19" fill="#ffffff" d="m489.5,211.9l20.9,0c0,0 4.3,67.3 5.7,90.8c-2.1,9.7 -9.1,11.3 -15.5,11.1c-8.2,-0.2 -15.9,-4.7 -17.1,-12.5l6,-89.4z"/>
+  <path id="svg_20" fill="#ffffff" d="m489.5,211.9l20.9,0c1.9,19 -21.6,89.4 -26.8,89.4l5.9,-89.4z"/>
+  <path stroke="null" id="svg_21" fill="#546433" d="m502.88812,113c-25.30349,0 -83.40779,6.42796 -52.4813,51.42367c23.24172,33.82713 82.47062,35.35377 103.08828,2.41048s-3.74866,-53.83415 -50.60697,-53.83415z"/>
+  <ellipse id="svg_24" fill="#ffffff" ry="57.6" rx="57" cy="177.4" cx="499.8"/>
+  <g id="svg_25">
+   <path d="m487.5,209.6c0.3,0 0.5,0.3 0.5,0.5s-0.3,0.5 -0.5,0.5c-0.3,0 -0.5,-0.3 -0.5,-0.5s0.3,-0.5 0.5,-0.5z" id="rightMiddleLip_2_"/>
+   <circle r="0.5" cy="209.9" cx="499.3" id="upperLipBottomMid_1_"/>
+   <circle r="0.5" cy="209.6" cx="496.8" id="rightUpperLipBottom1_1_"/>
+   <path d="m511.1,209.6c0.3,0 0.5,0.3 0.5,0.5s-0.3,0.5 -0.5,0.5s-0.5,-0.3 -0.5,-0.5s0.2,-0.5 0.5,-0.5z" id="leftMiddleLip_2_"/>
+   <circle r="0.5" cy="209.6" cx="501.8" id="leftUpperLipBottom1_1_"/>
+   <path id="svg_26" fill="#DF7977" stroke="#DF7977" stroke-width="2" stroke-miterlimit="10" d="m488,210.1c0,0 7.7,-0.1 11.3,-0.1s11.9,-0.1 11.9,-0.1s-6.9,2.6 -11.9,2.6c-5.1,0 -11.3,-2.4 -11.3,-2.4z"/>
+   <circle r="0.5" cy="211.9" cx="499.3" id="lowerLipTopMid_2_"/>
+   <circle r="0.5" cy="211.4" cx="496.8" id="rightLowerLipTop0_2_"/>
+   <circle r="0.5" cy="211.4" cx="501.8" id="leftLowerLipTop0_2_"/>
+  </g>
+  <g id="svg_27">
+   <ellipse id="svg_28" fill="#DF7977" ry="6.2" rx="7.8" cy="196.5" cx="464.1"/>
+   <ellipse id="svg_29" fill="#2C323A" ry="5.8" rx="3.6" cy="180.6" cx="464"/>
+   <circle r="0.8" cy="160.2" cx="468.6" id="rightEye0_1_"/>
+   <circle r="0.8" cy="156.5" cx="473.8" id="rightEye1_1_"/>
+   <circle r="0.8" cy="162.5" cx="473.8" id="rightEye5_1_"/>
+   <circle r="0.8" cy="156.5" cx="480.1" id="rightEye2_1_"/>
+   <circle r="0.8" cy="160.7" cx="485.3" id="rightEye3_1_"/>
+   <circle r="0.8" cy="161.7" cx="480.1" id="rightEye4_1_"/>
+  </g>
+  <g id="svg_30">
+   <ellipse id="svg_31" fill="#2C323A" ry="5.8" rx="3.6" cy="179.6" cx="532.8"/>
+   <ellipse id="svg_32" fill="#DF7977" ry="6.2" rx="7.8" cy="196.5" cx="533.2"/>
+   <circle r="0.8" cy="160.2" cx="528.2" id="leftEye0_1_"/>
+   <circle r="0.8" cy="156.5" cx="523" id="leftEye1_1_"/>
+   <circle r="0.8" cy="162.5" cx="523" id="leftEye5_1_"/>
+   <circle r="0.8" cy="156.5" cx="516.7" id="leftEye2_1_"/>
+   <circle r="0.8" cy="160.7" cx="511.5" id="leftEye3_1_"/>
+   <circle r="0.8" cy="161.7" cx="516.7" id="leftEye4_1_"/>
+  </g>
+  <g id="svg_33">
+   <path id="svg_34" fill="#2C323A" d="m518.8,159.9c10.7,-5 14.2,-5 19.2,0.7c-5,-0.7 -5.7,2.8 -19.2,-0.7z"/>
+   <circle r="0.8" cy="148.7" cx="530.1" id="leftBrow1_1_"/>
+   <circle r="0.8" cy="150.8" cx="506.5" id="leftBrow4_1_"/>
+   <circle r="0.8" cy="147.6" cx="516.5" id="leftBrow3_1_"/>
+   <circle r="0.8" cy="151.6" cx="534.1" id="leftBrow0_1_"/>
+   <circle r="0.8" cy="147.2" cx="523.8" id="leftBrow2_1_"/>
+  </g>
+  <g id="svg_35">
+   <path id="svg_36" fill="#2C323A" d="m478,159.9c-10.7,-5 -14.2,-5 -19.2,0.7c5,-0.7 5.7,2.8 19.2,-0.7z"/>
+   <circle r="0.8" cy="148.3" cx="466.4" id="rightBrow1_1_"/>
+   <circle r="0.8" cy="151.3" cx="489.7" id="rightBrow4_1_"/>
+   <circle r="0.8" cy="147.3" cx="479.9" id="rightBrow3_1_"/>
+   <circle r="0.8" cy="152" cx="462.4" id="rightBrow0_1_"/>
+   <circle r="0.8" cy="147.3" cx="472.6" id="rightBrow2_1_"/>
+  </g>
+  <path stroke="null" id="svg_37" fill="#46673D" d="m456.02841,141.17552c2.00533,5.38346 65.75364,14.47241 86.54572,-2.09745c10.55436,-8.3898 9.49892,-15.3813 4.22174,-17.47876c-4.64392,-1.81779 -9.49892,-4.1949 -23.21958,4.1949c-1.05544,-6.29235 1.05544,-10.48725 -16.88697,-11.88555c-29.34111,-2.3072 -55.30483,14.68215 -50.66091,27.26686z"/>
+  <g id="svg_38">
+   <path id="svg_39" fill="#2C323A" stroke="#2C323A" stroke-width="2" stroke-miterlimit="10" d="m496.4,185.8c-1.2,0 -4.6,1.6 -5.8,5.2c-0.2,1.2 0.6,5.8 6,4.1c-0.1,-1 -4.7,-1.1 -4.5,-3.7c0.3,-1.8 2,-1.8 4.3,-5.6z"/>
+   <circle r="0.8" cy="161.2" cx="497.6" id="nose1_1_"/>
+   <circle r="0.8" cy="155.4" cx="497.6" id="nose0_1_"/>
+   <circle r="0.8" cy="173.8" cx="497.6" id="nose3_1_"/>
+   <circle r="0.8" cy="178.3" cx="486.9" id="rightNose0_1_"/>
+   <circle r="0.8" cy="178.3" cx="492.1" id="rightNose1_1_"/>
+   <circle r="0.8" cy="166.7" cx="497.6" id="nose2_1_"/>
+   <circle r="0.8" cy="179.1" cx="497.6" id="nose4_1_"/>
+   <circle r="0.8" cy="178.3" cx="508" id="leftNose0_1_"/>
+   <circle r="0.8" cy="178.3" cx="503.2" id="leftNose1_1_"/>
   </g>
   <g id="skeleton_1_">
    <circle r="8.2" cy="294.3" cx="392.8" id="rightShoulder"/>
@@ -194,18 +190,7 @@
    <circle r="0.8" cy="117.6" cx="478.7" id="rightTop0"/>
    <circle r="0.8" cy="127.1" cx="466.1" id="rightTop1"/>
   </g>
-  <path id="svg_63" d="m448.25246,112.94349c35.00001,-26.07945 70.00001,26.07945 105,0l0,46.94301c-35,26.07946 -70,-26.07945 -105,0l0,-46.94301z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#A0D58A"/>
-  <ellipse ry="4" rx="6.5" id="svg_64" cy="172" cx="477" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_65" cy="187" cx="531.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse ry="4.5" rx="7" id="svg_66" cy="175.5" cx="523.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_67" cy="199" cx="537.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_68" cy="173" cx="523.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_69" cy="194" cx="531.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_70" cy="177" cx="524.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <ellipse id="svg_71" cy="194" cx="506.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
-  <path d="m476.5,175c0,0 0.70709,-1.29289 0,-2c-0.70709,-0.70711 -1,-1 -1,-2c0,-1 0,-2 0,-1c0,1 0,2 0,3c0,1 0,2 0,1c0,-1 1,-3 0,-3c-1,0 0,2 0,3c0,1 0,2 0,1c0,-1 0,-2 0,-3l1,-1" id="svg_72" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <polyline stroke-linecap="round" id="svg_73" points="552.5,181 552.5,181 552.5,181 " stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <path d="m476.5,176c0,0 0,-1 0,-2c0,-1 0,-2 0,-3c0,-1 0,-2 0,-3c0,-1 0,0 0,1c0,1 -1,4 0,4c2,0 1,-4 0,-4c-1,0 -0.70709,2.29289 0,3c0.70709,0.70711 1.70709,-1.29289 1,-2c-0.70709,-0.70711 -1,-1 -1,-2c0,-1 1,-1 1,0c0,1 1,1 1,2c0,1 -1,3 0,3c1,0 0,-2 -1,-2l-1,0l0,1l0,1" id="svg_74" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <path d="m521.5,171c0,0 0,1 0,2c0,1 0,2 1,2c1,0 2,0 3,0c1,0 0,0 -1,0c-1,0 -2,0 -2,1c0,1 0,2 1,2c1,0 0,-2 0,-3c0,-2 -0.29291,-3.70711 -1,-3c-0.70709,0.70711 0.4588,1.69344 1,3c0.38269,0.92387 0.29291,1.29289 1,2c0.70709,0.70711 0,0 0,-1c0,-1 1,-3 0,-3c-1,0 0,2 0,3c0,2 0,1 0,0c0,-1 0,-2 0,-3c0,-1 -1,-1 -2,-1c-1,0 -3,-1 -3,0c0,1 2,0 3,0c1,0 2,0 3,0c1,0 1,1 1,2c0,1 -0.29291,1.29289 -1,2c-0.70709,0.70711 -0.29291,1.29289 -1,2c-0.70709,0.70711 -1,-1 -1,-2c0,-1 1,-3 0,-3c-1,0 0.70709,2.29289 0,3c-0.70709,0.70711 -2,0 -2,-1c0,-1 -0.29291,-1.29289 -1,-2c-0.70709,-0.70711 0,-2 0,-1c0,1 -0.70709,2.29289 0,3c0.70709,0.70711 1,1 2,1l0,1" id="svg_75" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <path d="m457.5,178c0,0 0.07611,-0.61731 1,-1c1.30655,-0.5412 0.69345,-2.4588 2,-3c0.92389,-0.38269 1.07611,-0.61731 2,-1c1.30655,-0.5412 2,-1 3,-1c1,0 1.07611,0.61731 2,1c1.30655,0.5412 1.29291,2.29289 2,3c0.70709,0.70711 1,1 2,1l0,1" id="svg_55" stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
+  <polyline stroke-linecap="round" id="svg_56" points="501.5,262 501.5,262 " stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
  </g>
 </svg>
